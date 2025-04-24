@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biruk Gebre - Software Engineering Portfolio</title>
+    <meta name="description" content="Portfolio of Biruk Gebre, a second-year software engineering student showcasing skills and projects">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__logo">
+                    <img src="./assets/logo.jpg" alt="Tech Logo" class="logo-img">
+                    <h1 class="logo-text">Biruk Gebre</h1>
+                </div>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header__mobile-nav">
+                    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                    <label for="nav-toggle" class="nav-toggle-label">
+                        <span></span>
+                    </label>
+                    <nav class="mobile-nav">
+                        <ul class="mobile-nav__list">
+                            <li class="mobile-nav__item"><a href="#about" class="mobile-nav__link">About</a></li>
+                            <li class="mobile-nav__item"><a href="#skills" class="mobile-nav__link">Skills</a></li>
+                            <li class="mobile-nav__item"><a href="#projects" class="mobile-nav__link">Projects</a></li>
+                            <li class="mobile-nav__item"><a href="#contact" class="mobile-nav__link">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <div class="hero__text">
+                        <h2 class="hero__title">Software Engineering Student</h2>
+                        <p class="hero__subtitle">Building innovative solutions with code</p>
+                        <a href="#contact" class="btn btn--primary">Get in Touch</a>
+                    </div>
+                    <div class="hero__image">
+                        <div class="profile-image">
+                            <img src="./assets/profile.jpg" alt="Biruk Gebre - Software Engineer" class="profile-photo" width="250" height="250">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about section">
+            <div class="container">
+                <h2 class="section__title">About Me</h2>
+                <div class="about__content">
+                    <p class="about__text">
+                        I am a second-year Software Engineering student with a strong foundation in programming, problem-solving, and system design. Passionate about building innovative and efficient software solutions, I enjoy exploring emerging technologies like artificial intelligence, IoT, and blockchain.
+                    </p>
+                    <p class="about__text">
+                        My current skill set includes Python, JavaScript, basic web development (HTML, CSS), and database management with SQL. I'm also gaining hands-on experience through academic projects and personal initiatives, focusing on app development, cloud computing, and automation.
+                    </p>
+                    <p class="about__text">
+                        I'm eager to learn, collaborate, and apply my knowledge to real-world challenges while continuously improving my technical and creative skills.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills section">
+            <div class="container">
+                <h2 class="section__title">Skills</h2>
+                <div class="skills__categories">
+                    <div class="skill-category">
+                        <h3 class="skill-category__title">Development Areas</h3>
+                        <ul class="skill-list">
+                            <li class="skill-item">
+                                <span class="skill-name">Web Development</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">Android Development</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 65%"></div>
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">Embedded Systems</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 60%"></div>
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">Mobile Development</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%"></div>
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">Full Stack Development</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3 class="skill-category__title">Programming Languages</h3>
+                        <ul class="skill-list">
+                            <li class="skill-item">
+                                <span class="skill-name">Python</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">C++</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">Java</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%"></div>
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">JavaScript</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">Kotlin</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 65%"></div>
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">Go</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 60%"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects section">
+            <div class="container">
+                <h2 class="section__title">Projects</h2>
+                
+                <div class="projects-tabs">
+                    <div class="projects-tab">
+                        <input type="radio" id="python" name="projects" class="tab-input" checked>
+                        <label for="python" class="tab-label">Python</label>
+                        <div class="tab-content">
+                            <div class="projects-grid">
+                                <div class="project-card">
+                                    <h3 class="project-card__title">To-Do List App</h3>
+                                    <p class="project-card__description">A command line and GUI application for managing personal tasks and schedules.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">CLI</span>
+                                        <span class="tag">GUI</span>
+                                        <span class="tag">Productivity</span>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                    <h3 class="project-card__title">Weather App</h3>
+                                    <p class="project-card__description">Application that fetches and displays weather information using public APIs.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">API</span>
+                                        <span class="tag">Data</span>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                    <h3 class="project-card__title">Simple Chatbot</h3>
+                                    <p class="project-card__description">Text-based conversational interface with basic natural language processing.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">NLP</span>
+                                        <span class="tag">AI</span>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                    <h3 class="project-card__title">Expense Tracker</h3>
+                                    <p class="project-card__description">Application for tracking personal expenses and generating financial reports.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">Finance</span>
+                                        <span class="tag">Data</span>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                    <h3 class="project-card__title">Quiz Game</h3>
+                                    <p class="project-card__description">Interactive quiz application with multiple-choice questions and scoring system.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">Game</span>
+                                        <span class="tag">Education</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="projects-tab">
+                        <input type="radio" id="cpp" name="projects" class="tab-input">
+                        <label for="cpp" class="tab-label">C++</label>
+                        <div class="tab-content">
+                            <div class="projects-grid">
+                                <div class="project-card">
+                                    <h3 class="project-card__title">Bank Management System</h3>
+                                    <p class="project-card__description">Application for managing bank accounts with features for deposits, withdrawals, and transfers.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">Finance</span>
+                                        <span class="tag">Database</span>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                    <h3 class="project-card__title">Student Record System</h3>
+                                    <p class="project-card__description">Database application for storing and managing student information and academic records.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">Database</span>
+                                        <span class="tag">Education</span>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                    <h3 class="project-card__title">Tic-Tac-Toe Game</h3>
+                                    <p class="project-card__description">Implementation of the classic game with a command-line interface.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">Game</span>
+                                        <span class="tag">CLI</span>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                    <h3 class="project-card__title">Basic Calculator</h3>
+                                    <p class="project-card__description">Command-line calculator supporting basic arithmetic operations.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">Utility</span>
+                                        <span class="tag">Math</span>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                    <h3 class="project-card__title">Unit Converter</h3>
+                                    <p class="project-card__description">Tool for converting between different units of measurement.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">Utility</span>
+                                        <span class="tag">Tool</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="projects-tab">
+                        <input type="radio" id="java" name="projects" class="tab-input">
+                        <label for="java" class="tab-label">Java</label>
+                        <div class="tab-content">
+                            <div class="projects-grid">
+                                <div class="project-card">
+                                    <h3 class="project-card__title">Library Management System</h3>
+                                    <p class="project-card__description">Application for tracking books, borrowers, and library transactions.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">Database</span>
+                                        <span class="tag">Management</span>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                    <h3 class="project-card__title">Number Guessing Game</h3>
+                                    <p class="project-card__description">Simple game where users guess a randomly generated number.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">Game</span>
+                                        <span class="tag">Interactive</span>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                    <h3 class="project-card__title">Currency Converter</h3>
+                                    <p class="project-card__description">Application for converting between different currencies using exchange rates.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">Finance</span>
+                                        <span class="tag">Tool</span>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                    <h3 class="project-card__title">Login Form</h3>
+                                    <p class="project-card__description">Basic authentication system with user registration and login functionality.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">Security</span>
+                                        <span class="tag">UI</span>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                    <h3 class="project-card__title">Basic Address Book</h3>
+                                    <p class="project-card__description">Application for storing and managing contact information.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">Database</span>
+                                        <span class="tag">Utility</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="projects-tab">
+                        <input type="radio" id="javascript" name="projects" class="tab-input">
+                        <label for="javascript" class="tab-label">JavaScript</label>
+                        <div class="tab-content">
+                            <div class="projects-grid">
+                                <div class="project-card project-card--featured">
+                                    <div class="project-card__image-container">
+                                        <img src="./assets/projects/cargo-connect.jpg" alt="CargoConnect" class="project-card__image">
+                                    </div>
+                                    <h3 class="project-card__title">CargoConnect</h3>
+                                    <p class="project-card__description">An innovative logistics platform connecting carriers with shippers, featuring real-time tracking, automated dispatch, and intelligent route optimization.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">Logistics</span>
+                                        <span class="tag">Web App</span>
+                                        <span class="tag">Real-time</span>
+                                    </div>
+                                </div>
+                                <div class="project-card project-card--featured">
+                                    <div class="project-card__image-container">
+                                        <img src="./assets/projects/cargo-fusion.jpg" alt="Cargo Fusion" class="project-card__image">
+                                    </div>
+                                    <h3 class="project-card__title">Cargo Fusion</h3>
+                                    <p class="project-card__description">A comprehensive freight connection system that streamlines cargo shipment with verified drivers, simplifying logistics management and transportation operations.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">Logistics</span>
+                                        <span class="tag">Transportation</span>
+                                        <span class="tag">Web App</span>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                    <h3 class="project-card__title">To-Do List Web App</h3>
+                                    <p class="project-card__description">Web-based task management application with browser storage.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">Web</span>
+                                        <span class="tag">Productivity</span>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                    <h3 class="project-card__title">Digital Clock</h3>
+                                    <p class="project-card__description">Real-time digital clock display with date information.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">Web</span>
+                                        <span class="tag">UI</span>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                    <h3 class="project-card__title">Calculator Web App</h3>
+                                    <p class="project-card__description">Interactive calculator with a graphical user interface.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">Web</span>
+                                        <span class="tag">Tool</span>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                    <h3 class="project-card__title">Quiz App</h3>
+                                    <p class="project-card__description">Interactive quiz application with multiple categories and scoring.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">Web</span>
+                                        <span class="tag">Game</span>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                    <h3 class="project-card__title">Weather App</h3>
+                                    <p class="project-card__description">Web application that displays weather information for user-specified locations.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">Web</span>
+                                        <span class="tag">API</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="projects-tab">
+                        <input type="radio" id="kotlin" name="projects" class="tab-input">
+                        <label for="kotlin" class="tab-label">Kotlin</label>
+                        <div class="tab-content">
+                            <div class="projects-grid">
+                                <div class="project-card">
+                                    <h3 class="project-card__title">Tip Calculator App</h3>
+                                    <p class="project-card__description">Mobile application for calculating restaurant tips based on bill amount and service quality.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">Android</span>
+                                        <span class="tag">Utility</span>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                    <h3 class="project-card__title">BMI Calculator</h3>
+                                    <p class="project-card__description">Application for calculating Body Mass Index from height and weight inputs.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">Android</span>
+                                        <span class="tag">Health</span>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                    <h3 class="project-card__title">Simple Notes App</h3>
+                                    <p class="project-card__description">Mobile application for creating, storing, and managing personal notes.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">Android</span>
+                                        <span class="tag">Productivity</span>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                    <h3 class="project-card__title">Stopwatch/Timer App</h3>
+                                    <p class="project-card__description">Time tracking application with stopwatch and countdown timer functionality.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">Android</span>
+                                        <span class="tag">Utility</span>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                    <h3 class="project-card__title">Login/Register Screens</h3>
+                                    <p class="project-card__description">User authentication interface with registration and login screens.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">Android</span>
+                                        <span class="tag">UI</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="projects-tab">
+                        <input type="radio" id="go" name="projects" class="tab-input">
+                        <label for="go" class="tab-label">Go</label>
+                        <div class="tab-content">
+                            <div class="projects-grid">
+                                <div class="project-card">
+                                    <h3 class="project-card__title">CLI Todo Manager</h3>
+                                    <p class="project-card__description">Command-line application for managing tasks and to-do lists.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">CLI</span>
+                                        <span class="tag">Productivity</span>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                    <h3 class="project-card__title">File Organizer</h3>
+                                    <p class="project-card__description">Utility for automatically organizing files in a directory by type, date, or other criteria.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">File System</span>
+                                        <span class="tag">Automation</span>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                    <h3 class="project-card__title">Basic Web Server</h3>
+                                    <p class="project-card__description">Lightweight HTTP server implementation with basic routing capabilities.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">Network</span>
+                                        <span class="tag">Server</span>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                    <h3 class="project-card__title">Weather CLI App</h3>
+                                    <p class="project-card__description">Command-line tool for retrieving weather information from public APIs.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">CLI</span>
+                                        <span class="tag">API</span>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                    <h3 class="project-card__title">Simple Port Scanner</h3>
+                                    <p class="project-card__description">Network utility for scanning and reporting on open ports on a target system.</p>
+                                    <div class="project-card__tags">
+                                        <span class="tag">Network</span>
+                                        <span class="tag">Security</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section">
+            <div class="container">
+                <h2 class="section__title">Contact Me</h2>
+                <div class="contact__content">
+                    <div class="contact__info">
+                        <div class="contact__item">
+                            <div class="contact__icon">✉️</div>
+                            <div class="contact__text">
+                                <h3 class="contact__label">Email</h3>
+                                <p class="contact__value"><a href="mailto:birukgebre277@gmail.com" class="contact__link">birukgebre277@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact__item">
+                            <div class="contact__icon">📱</div>
+                            <div class="contact__text">
+                                <h3 class="contact__label">Phone</h3>
+                                <p class="contact__value"><a href="tel:+251996306482" class="contact__link">+251 996 306 482</a></p>
+                            </div>
+                        </div>
+                        <div class="contact__item">
+                            <div class="contact__icon">📍</div>
+                            <div class="contact__text">
+                                <h3 class="contact__label">Location</h3>
+                                <p class="contact__value">Addis Ababa, Ethiopia</p>
+                            </div>
+                        </div>
+                        <div class="contact__item">
+                            <div class="contact__icon">💼</div>
+                            <div class="contact__text">
+                                <h3 class="contact__label">LinkedIn</h3>
+                                <p class="contact__value">linkedin.com/in/birukgebre</p>
+                            </div>
+                        </div>
+                        <div class="contact__item">
+                            <div class="contact__icon">🐙</div>
+                            <div class="contact__text">
+                                <h3 class="contact__label">GitHub</h3>
+                                <p class="contact__value"><a href="https://github.com/birukG09" target="_blank" class="contact__link">github.com/birukG09</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact__form-container">
+                        <form class="contact__form" action="mailto:birukgebre277@gmail.com" method="post" enctype="text/plain">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" id="name" name="name" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" name="email" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" id="subject" name="subject" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" name="message" class="form-textarea" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <p class="footer__text">&copy; 2025 Biruk Gebre. All rights reserved.</p>
+                <div class="footer__social">
+                    <a href="https://github.com/birukG09" class="social-link" target="_blank">GitHub</a>
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <style>
+    .white {
+      fill: #ffffff;
+    }
+    .black {
+      fill: #121212;
+    }
+    .orange {
+      fill: #FF5500;
+    }
+    .gray {
+      fill: #888888;
+    }
+  </style>
+  <rect class="black" x="0" y="0" width="600" height="400" />
+  <g transform="translate(80, 60) scale(0.8)">
+    <!-- Abstract geometric shapes inspired by the provided design -->
+    <polygon class="white" points="50,50 150,20 220,100 180,200 80,180" />
+    <polygon class="white" points="220,100 300,80 350,150 320,220 220,200" />
+    <polygon class="white" points="350,150 420,130 480,190 450,270 350,230" />
+    <path class="white" d="M80,180 Q 120,220 180,200 Q 240,180 220,200 Q 260,250 320,220 Q 380,190 350,230 Q 400,280 450,270 L 400,350 Q 300,320 200,340 Q 100,360 30,280 Z" />
+    
+    <!-- Orange accent lines -->
+    <path class="orange" d="M150,20 L 180,120 L 300,80 L 350,150 L 420,130" stroke-width="10" stroke-linecap="round" />
+    <path class="orange" d="M80,180 L 150,160" stroke-width="8" stroke-linecap="round" />
+    <rect class="orange" x="450" y="170" width="30" height="30" />
+    <rect class="orange" x="380" y="90" width="20" height="20" />
+    
+    <!-- Black and white checker pattern -->
+    <g transform="translate(350, 100) rotate(15)">
+      <rect class="black" x="0" y="0" width="20" height="20" />
+      <rect class="white" x="20" y="0" width="20" height="20" />
+      <rect class="black" x="40" y="0" width="20" height="20" />
+      <rect class="white" x="0" y="20" width="20" height="20" />
+      <rect class="black" x="20" y="20" width="20" height="20" />
+      <rect class="white" x="40" y="20" width="20" height="20" />
+      <rect class="black" x="0" y="40" width="20" height="20" />
+      <rect class="white" x="20" y="40" width="20" height="20" />
+      <rect class="black" x="40" y="40" width="20" height="20" />
+    </g>
+    
+    <!-- Small details -->
+    <circle class="white" cx="30" cy="270" r="10" stroke="#333" stroke-width="1" />
+  </g>
+</svg>
